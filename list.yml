@@ -4,11 +4,11 @@
   become: yes
   become_user: root
   become: yes
-  become_user: kk
+  become_user: aka
   tasks:
     - name: Create akash.txt file
       ansible.builtin.file:
         path: /root/akash.txt
-        path: /home/kk/akash.txt
+        path: /home/aka/akash.txt
         state: touch
 ...
