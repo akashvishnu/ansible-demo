@@ -1,7 +1,9 @@
 ---
-# A list of tasty fruits
-- Apple
-- Orange
-- Strawberry
-- Mango
+- name: Create akash.txt file
+  hosts: your_target_host
+  tasks:
+    - name: Create akash.txt file
+      ansible.builtin.file:
+        path: /path/to/akash.txt
+        state: touch
 ...
