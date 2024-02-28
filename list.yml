@@ -1,6 +1,6 @@
 ---
 - name: Create akash.txt file
-  hosts: your_target_host
+  hosts: all
   tasks:
     - name: Create akash.txt file
       ansible.builtin.file:
