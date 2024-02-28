@@ -1,6 +1,7 @@
 ---
 - name: Create akash.txt file
   hosts: all
+  become: root
   tasks:
     - name: Create akash.txt file
       ansible.builtin.file:
