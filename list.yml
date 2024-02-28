@@ -1,10 +1,9 @@
 ---
 - name: Create akash.txt file
   hosts: all
-  become: root
   tasks:
     - name: Create akash.txt file
       ansible.builtin.file:
-        path: /home/ubuntu/akash.txt
+        path: /root/akash.txt
         state: touch
 ...
