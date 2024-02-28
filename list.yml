@@ -4,6 +4,6 @@
   tasks:
     - name: Create akash.txt file
       ansible.builtin.file:
-        path: /path/to/akash.txt
+        path: /home/ubuntu/akash.txt
         state: touch
 ...
