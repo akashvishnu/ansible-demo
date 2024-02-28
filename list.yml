@@ -3,10 +3,12 @@
   hosts: all
   become: yes
   become_user: root
+  become: yes
   become_user: kk
   tasks:
     - name: Create akash.txt file
       ansible.builtin.file:
         path: /root/akash.txt
+        path: /home/kk/akash.txt
         state: touch
 ...
