@@ -1,6 +1,7 @@
 ---
 - name:
 hosts: all
+
 tasks:
 - name:
 copy:
