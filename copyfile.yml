@@ -9,5 +9,5 @@
       dest: /tmp
       owner: Ubuntu
       group: Ubuntu
-      mode: 0000
+      mode: '0000'
       backup: true
